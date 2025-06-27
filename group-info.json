@@ -1,0 +1,182 @@
+[
+  {
+    "jcr:uuid": "64b3386f-c145-30a6-a3c0-9f87fba8c086",
+    "rep:authorizableId": "DEV-TEST-06-24-2025"
+  },
+  {
+    "jcr:uuid": "ed881bac-6397-3de3-bc0a-285c9f50bb83",
+    "rep:authorizableId": "everyone"
+  },
+  {
+    "jcr:uuid": "4e764363-45fc-31da-97fe-c1a39cd18d67",
+    "rep:authorizableId": "experience-fragments-editors"
+  },
+  {
+    "jcr:uuid": "e8351d1c-4d5f-30c0-b2f7-37c856f92040",
+    "rep:authorizableId": "workflow-editors"
+  },
+  {
+    "jcr:uuid": "b96369b0-6ade-3592-9905-151f11af5062",
+    "rep:authorizableId": "workflow-administrators"
+  },
+  {
+    "jcr:uuid": "ca58c408-fe06-357e-953c-2d23ffe1e096",
+    "rep:authorizableId": "workflow-users"
+  },
+  {
+    "jcr:uuid": "36afc583-85d9-307c-b07b-93278131f273",
+    "rep:authorizableId": "AEM Administrators - author - Program 136403 - Environment 1586309"
+  },
+  {
+    "jcr:uuid": "9cd26544-3680-3c83-bb63-d12a208be1e2",
+    "rep:authorizableId": "AEM Users - author - Program 136403 - Environment 1586309"
+  },
+  {
+    "jcr:uuid": "75686523-5a3f-383d-afe4-405dc0bcbfd1",
+    "rep:authorizableId": "AEM Assets API Users - Service"
+  },
+  {
+    "jcr:uuid": "63409452-6f43-3fbc-a4fb-aad846b73da3",
+    "rep:authorizableId": "folderprofile-80b77b73-30ef-6143-cd50-f37307606c3f"
+  },
+  {
+    "jcr:uuid": "bd3522f3-8bda-3b3d-8e79-f0c3a288baef",
+    "rep:authorizableId": "AEM Assets Power Users - author - Program 136403 - Environment 1586309"
+  },
+  {
+    "jcr:uuid": "03a3b255-f0df-37c6-9253-0955b67d814f",
+    "rep:authorizableId": "CCMS_Admin_Local"
+  },
+  {
+    "jcr:uuid": "d3c827d3-4db2-30cc-9c41-0ed8117dbaff",
+    "rep:authorizableId": "tag-administrators"
+  },
+  {
+    "jcr:uuid": "cd18b5d1-ace0-36b5-b0f5-57f5fe17dd66",
+    "rep:authorizableId": "CCMS_Reviewers"
+  },
+  {
+    "jcr:uuid": "975f0237-86ea-3646-bb2f-4e1847d08b7f",
+    "rep:authorizableId": "FOOOM"
+  },
+  {
+    "jcr:uuid": "eb620216-9f23-36af-b80f-6fd86946e79b",
+    "rep:authorizableId": "AEM Administrators - Service"
+  },
+  {
+    "jcr:uuid": "c4ca7917-3acd-3894-9f4e-4a4efc3a9b48",
+    "rep:authorizableId": "CCMS_Admin"
+  },
+  {
+    "jcr:uuid": "324bfc81-934d-3ea9-9259-8f16a9a6ea0b",
+    "rep:authorizableId": "CCMS_SupportTeam"
+  },
+  {
+    "jcr:uuid": "9d120bbc-9f42-36e1-ad34-90d429a35edb",
+    "rep:authorizableId": "AEM Assets Collaborator Users - author - Program 136403 - Environment 1586309"
+  },
+  {
+    "jcr:uuid": "22737547-f8f3-3551-af77-6d6b2696bee8",
+    "rep:authorizableId": "AEM Reporters - author - Program 136403 - Environment 1586309"
+  },
+  {
+    "jcr:uuid": "e2b0d5ab-6bf9-31b1-82f0-6244167adfd7",
+    "rep:authorizableId": "test-author"
+  },
+  {
+    "jcr:uuid": "051e0aa5-7f13-3e29-9bef-2d0c6e59dc72",
+    "rep:authorizableId": "reviewers"
+  },
+  {
+    "jcr:uuid": "222c5b5d-80e3-3337-9647-68b75f48fd43",
+    "rep:authorizableId": "delete-assets"
+  },
+  {
+    "jcr:uuid": "5d9449e8-d850-3c7e-a2cf-746c86e5dde3",
+    "rep:authorizableId": "authors"
+  },
+  {
+    "jcr:uuid": "836e3365-f66e-38ad-aba3-282fbb77a0d0",
+    "rep:authorizableId": "publishers"
+  },
+  {
+    "jcr:uuid": "01b11434-2d7f-3811-a69e-b24dbe609cc4",
+    "rep:authorizableId": "test_admin"
+  },
+  {
+    "jcr:uuid": null,
+    "rep:authorizableId": null
+  },
+  {
+    "jcr:uuid": "3ebb1c04-76dd-317e-a9ee-5164182bc390",
+    "rep:authorizableId": "content-authors"
+  },
+  {
+    "jcr:uuid": "951d98d5-3dbd-336e-842e-4e83fcb77bd3",
+    "rep:authorizableId": "CCMS_Reviewers_Local"
+  },
+  {
+    "jcr:uuid": "bba23486-31bb-3ef0-a2b7-3dde6b38fdc1",
+    "rep:authorizableId": "contributor"
+  },
+  {
+    "jcr:uuid": "3f4aa76c-656a-3eb3-9d43-60fc87539244",
+    "rep:authorizableId": "connectedassets-assets-techaccts"
+  },
+  {
+    "jcr:uuid": "fea0a1d4-1b09-3834-9645-7ea58ca22b44",
+    "rep:authorizableId": "connectedassets-sites-techaccts"
+  },
+  {
+    "jcr:uuid": "429bbd5b-46a6-3c3d-808b-5fd4219d5c4d",
+    "rep:authorizableId": "user-administrators"
+  },
+  {
+    "jcr:uuid": "88882354-ed4e-39f5-9b69-442d510708b7",
+    "rep:authorizableId": "AEM Assets Power Users - Service"
+  },
+  {
+    "jcr:uuid": "1ddd6672-3b65-3db7-acdb-6e657e85043e",
+    "rep:authorizableId": "Support Team"
+  },
+  {
+    "jcr:uuid": "f5777a0b-a933-3b4d-9405-613d8bc39cc7",
+    "rep:authorizableId": "dam-users"
+  },
+  {
+    "jcr:uuid": "677d9646-711e-3821-8657-c518f776a4af",
+    "rep:authorizableId": "DEV-TEST-06-18-2025"
+  },
+  {
+    "jcr:uuid": "13f2d435-fb29-3b29-b0d9-4ef81c869949",
+    "rep:authorizableId": "DOGCOW"
+  },
+  {
+    "jcr:uuid": "7a23e294-4d78-3824-9a15-08b446605b25",
+    "rep:authorizableId": "AEM Assets Collaborator Users - Service"
+  },
+  {
+    "jcr:uuid": "ee50273b-b5e1-314e-b8ff-3678aa4bb950",
+    "rep:authorizableId": "DEV-TEST-06-17-2025"
+  },
+  {
+    "jcr:uuid": "91a71477-df1f-3b4e-8584-177d58f8909a",
+    "rep:authorizableId": "DEV-TEST-06-12-2025"
+  },
+  {
+    "jcr:uuid": "8b4aa6e0-dd2d-3645-aa97-4678424645d8",
+    "rep:authorizableId": "CCMS_Authors_Local"
+  },
+  {
+    "jcr:uuid": "75b5a47b-fcbb-3529-8f21-88d3b0891a29",
+    "rep:authorizableId": "AEM Users - Service"
+  },
+  {
+    "jcr:uuid": "79c37fb3-5966-323d-b8ef-691c30e5fb94",
+    "rep:authorizableId": "CCMS_Authors"
+  },
+  {
+    "jcr:uuid": "e9f07f2d-3821-3446-98ce-9e30d953ef1e",
+    "rep:authorizableId": "CCMS_SupportTeam_Local"
+  }
+]
