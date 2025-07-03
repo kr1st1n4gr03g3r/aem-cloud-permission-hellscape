@@ -2,3 +2,5 @@ home-package-dump
 /home-package-dump
 .DS_Store
 /.DS_Store
+group-info.json
+/group-info.json

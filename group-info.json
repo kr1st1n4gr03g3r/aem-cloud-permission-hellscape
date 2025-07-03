@@ -3,264 +3,352 @@
     "jcr:uuid": "64b3386f-c145-30a6-a3c0-9f87fba8c086",
     "rep:authorizableId": "DEV-TEST-06-24-2025",
     "rep:principalName": "DEV-TEST-06-24-2025",
-    "aem_path": "/home/groups/e-1/erFBDRtLiyZO3zQc5I1c"
+    "aem_path": "/home/groups/e-1/erFBDRtLiyZO3zQc5I1c",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "ed881bac-6397-3de3-bc0a-285c9f50bb83",
     "rep:authorizableId": "everyone",
     "rep:principalName": "everyone",
-    "aem_path": "/home/groups/e-1/everyone"
+    "aem_path": "/home/groups/e-1/everyone",
+    "group_member_count": 0,
+    "users_in_this_group": "Amarjit Saini, Dimple Revawala, Divraj Singh, Gabriel Chow, Ganga Maheshwari, Karthik reddy Koduru, Kristina Groeger, Manny Dayno, Manpreet Singh, Mark Wong, Mohsen Sheikh hassani, Share Point Test 7, test-user-persona test-user-persona"
   },
   {
     "jcr:uuid": "4e764363-45fc-31da-97fe-c1a39cd18d67",
     "rep:authorizableId": "experience-fragments-editors",
     "rep:principalName": "experience-fragments-editors",
-    "aem_path": "/home/groups/e-1/experience-fragments-editors"
+    "aem_path": "/home/groups/e-1/experience-fragments-editors",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "e8351d1c-4d5f-30c0-b2f7-37c856f92040",
     "rep:authorizableId": "workflow-editors",
     "rep:principalName": "workflow-editors",
-    "aem_path": "/home/groups/w-1/x7IGTsW4qyTr0bT2D3M3"
+    "aem_path": "/home/groups/w-1/x7IGTsW4qyTr0bT2D3M3",
+    "group_member_count": 2,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "b96369b0-6ade-3592-9905-151f11af5062",
     "rep:authorizableId": "workflow-administrators",
     "rep:principalName": "workflow-administrators",
-    "aem_path": "/home/groups/w-1/QxuGdafo2C_jgkO1qjny"
+    "aem_path": "/home/groups/w-1/QxuGdafo2C_jgkO1qjny",
+    "group_member_count": 2,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "ca58c408-fe06-357e-953c-2d23ffe1e096",
     "rep:authorizableId": "workflow-users",
     "rep:principalName": "workflow-users",
-    "aem_path": "/home/groups/w-1/jLMr8-5qXck1qkSvxlyD"
+    "aem_path": "/home/groups/w-1/jLMr8-5qXck1qkSvxlyD",
+    "group_member_count": 4,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "36afc583-85d9-307c-b07b-93278131f273",
     "rep:authorizableId": "AEM Administrators - author - Program 136403 - Environment 1586309",
     "rep:principalName": "AEM Administrators - author - Program 136403 - Environment 1586309",
-    "aem_path": "/home/groups/s-1/s4DzCcFmZZbCWcJ0RdM7"
+    "aem_path": "/home/groups/s-1/s4DzCcFmZZbCWcJ0RdM7",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "9cd26544-3680-3c83-bb63-d12a208be1e2",
     "rep:authorizableId": "AEM Users - author - Program 136403 - Environment 1586309",
     "rep:principalName": "AEM Users - author - Program 136403 - Environment 1586309",
-    "aem_path": "/home/groups/s-1/sQPwnYrL5XZvTQoFovfh"
+    "aem_path": "/home/groups/s-1/sQPwnYrL5XZvTQoFovfh",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "75686523-5a3f-383d-afe4-405dc0bcbfd1",
     "rep:authorizableId": "AEM Assets API Users - Service",
     "rep:principalName": "AEM Assets API Users - Service",
-    "aem_path": "/home/groups/9/9n8KRyfETZBn4c5Bk8Yg"
+    "aem_path": "/home/groups/9/9n8KRyfETZBn4c5Bk8Yg",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "63409452-6f43-3fbc-a4fb-aad846b73da3",
     "rep:authorizableId": "folderprofile-80b77b73-30ef-6143-cd50-f37307606c3f",
     "rep:principalName": "folderprofile-80b77b73-30ef-6143-cd50-f37307606c3f",
-    "aem_path": "/home/groups/9/9YT9sDB0X4FUKJA_ZFab"
+    "aem_path": "/home/groups/9/9YT9sDB0X4FUKJA_ZFab",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "bd3522f3-8bda-3b3d-8e79-f0c3a288baef",
     "rep:authorizableId": "AEM Assets Power Users - author - Program 136403 - Environment 1586309",
     "rep:principalName": "AEM Assets Power Users - author - Program 136403 - Environment 1586309",
-    "aem_path": "/home/groups/N/Nr5WsJ0dZWMD-TVpaoCW"
+    "aem_path": "/home/groups/N/Nr5WsJ0dZWMD-TVpaoCW",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "03a3b255-f0df-37c6-9253-0955b67d814f",
     "rep:authorizableId": "CCMS_Admin_Local",
     "rep:principalName": "CCMS_Admin_Local",
-    "aem_path": "/home/groups/N/NBhKFua3uMW0pwGsMdP4"
+    "aem_path": "/home/groups/N/NBhKFua3uMW0pwGsMdP4",
+    "group_member_count": 4,
+    "users_in_this_group": "Amarjit Saini, Dimple Revawala, Gabriel Chow, Ganga Maheshwari, Kristina Groeger, Manny Dayno, Mark Wong, Share Point Test 7"
   },
   {
     "jcr:uuid": "d3c827d3-4db2-30cc-9c41-0ed8117dbaff",
     "rep:authorizableId": "tag-administrators",
     "rep:principalName": "tag-administrators",
-    "aem_path": "/home/groups/t-1/PB9AVo40F2BdWBop5Jd7"
+    "aem_path": "/home/groups/t-1/PB9AVo40F2BdWBop5Jd7",
+    "group_member_count": 1,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "cd18b5d1-ace0-36b5-b0f5-57f5fe17dd66",
     "rep:authorizableId": "CCMS_Reviewers",
     "rep:principalName": "CCMS_Reviewers",
-    "aem_path": "/home/groups/Z/ZXrfcUuA44PXq_-xjWle"
+    "aem_path": "/home/groups/Z/ZXrfcUuA44PXq_-xjWle",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "975f0237-86ea-3646-bb2f-4e1847d08b7f",
     "rep:authorizableId": "FOOOM",
     "rep:principalName": "FOOOM",
-    "aem_path": "/home/groups/1/1EwNYjDiqQFDnIQCnSi8"
+    "aem_path": "/home/groups/1/1EwNYjDiqQFDnIQCnSi8",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "eb620216-9f23-36af-b80f-6fd86946e79b",
     "rep:authorizableId": "AEM Administrators - Service",
     "rep:principalName": "AEM Administrators - Service",
-    "aem_path": "/home/groups/z-1/zdttYA6X-IrVx3mlLuOc"
+    "aem_path": "/home/groups/z-1/zdttYA6X-IrVx3mlLuOc",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "c4ca7917-3acd-3894-9f4e-4a4efc3a9b48",
     "rep:authorizableId": "CCMS_Admin",
     "rep:principalName": "CCMS_Admin",
-    "aem_path": "/home/groups/z-1/zpMffUZD2kYSSaam_P9a"
+    "aem_path": "/home/groups/z-1/zpMffUZD2kYSSaam_P9a",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "324bfc81-934d-3ea9-9259-8f16a9a6ea0b",
     "rep:authorizableId": "CCMS_SupportTeam",
     "rep:principalName": "CCMS_SupportTeam",
-    "aem_path": "/home/groups/z-1/zn_hFCw88DxhFx6KYeNT"
+    "aem_path": "/home/groups/z-1/zn_hFCw88DxhFx6KYeNT",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "9d120bbc-9f42-36e1-ad34-90d429a35edb",
     "rep:authorizableId": "AEM Assets Collaborator Users - author - Program 136403 - Environment 1586309",
     "rep:principalName": "AEM Assets Collaborator Users - author - Program 136403 - Environment 1586309",
-    "aem_path": "/home/groups/-/-W1RWXcM4PEXgA3KPhuN"
+    "aem_path": "/home/groups/-/-W1RWXcM4PEXgA3KPhuN",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "22737547-f8f3-3551-af77-6d6b2696bee8",
     "rep:authorizableId": "AEM Reporters - author - Program 136403 - Environment 1586309",
     "rep:principalName": "AEM Reporters - author - Program 136403 - Environment 1586309",
-    "aem_path": "/home/groups/F/FIeuwpYHOP-oZb9tOoKC"
+    "aem_path": "/home/groups/F/FIeuwpYHOP-oZb9tOoKC",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "e2b0d5ab-6bf9-31b1-82f0-6244167adfd7",
     "rep:authorizableId": "test-author",
     "rep:principalName": "test-author",
-    "aem_path": "/home/groups/O/OfY17ZcUV9hhZZVxj3nd"
+    "aem_path": "/home/groups/O/OfY17ZcUV9hhZZVxj3nd",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "051e0aa5-7f13-3e29-9bef-2d0c6e59dc72",
     "rep:authorizableId": "reviewers",
     "rep:principalName": "reviewers",
-    "aem_path": "/home/groups/dxml/E8rpGeaHfdywnSd4uqaV"
+    "aem_path": "/home/groups/dxml/E8rpGeaHfdywnSd4uqaV",
+    "group_member_count": 1,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "222c5b5d-80e3-3337-9647-68b75f48fd43",
     "rep:authorizableId": "delete-assets",
     "rep:principalName": "delete-assets",
-    "aem_path": "/home/groups/dxml/-JsycWPe3RKUOJ8iPAdo"
+    "aem_path": "/home/groups/dxml/-JsycWPe3RKUOJ8iPAdo",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "5d9449e8-d850-3c7e-a2cf-746c86e5dde3",
     "rep:authorizableId": "authors",
     "rep:principalName": "authors",
-    "aem_path": "/home/groups/dxml/GAuZUoSgeibNnYO5zAMQ"
+    "aem_path": "/home/groups/dxml/GAuZUoSgeibNnYO5zAMQ",
+    "group_member_count": 1,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger, Mark Wong"
   },
   {
     "jcr:uuid": "836e3365-f66e-38ad-aba3-282fbb77a0d0",
     "rep:authorizableId": "publishers",
     "rep:principalName": "publishers",
-    "aem_path": "/home/groups/dxml/xAF_Cp7nA3hg0iBoqg2r"
+    "aem_path": "/home/groups/dxml/xAF_Cp7nA3hg0iBoqg2r",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "01b11434-2d7f-3811-a69e-b24dbe609cc4",
     "rep:authorizableId": "test_admin",
     "rep:principalName": "test_admin",
-    "aem_path": "/home/groups/g-1/gvSSNwsbp3dpcON4J3VK"
+    "aem_path": "/home/groups/g-1/gvSSNwsbp3dpcON4J3VK",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "3ebb1c04-76dd-317e-a9ee-5164182bc390",
     "rep:authorizableId": "content-authors",
     "rep:principalName": "content-authors",
-    "aem_path": "/home/groups/c-1/s7EYaU5zn7dEKnpTT7Iw"
+    "aem_path": "/home/groups/c-1/s7EYaU5zn7dEKnpTT7Iw",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "951d98d5-3dbd-336e-842e-4e83fcb77bd3",
     "rep:authorizableId": "CCMS_Reviewers_Local",
     "rep:principalName": "CCMS_Reviewers_Local",
-    "aem_path": "/home/groups/c-1/cKaUkkvWE0qQ2Ysf-dYi"
+    "aem_path": "/home/groups/c-1/cKaUkkvWE0qQ2Ysf-dYi",
+    "group_member_count": 5,
+    "users_in_this_group": "Amarjit Saini, Share Point Test 7"
   },
   {
     "jcr:uuid": "bba23486-31bb-3ef0-a2b7-3dde6b38fdc1",
     "rep:authorizableId": "contributor",
     "rep:principalName": "contributor",
-    "aem_path": "/home/groups/c-1/ttZirCmHi0bamBgLXuZj"
+    "aem_path": "/home/groups/c-1/ttZirCmHi0bamBgLXuZj",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "3f4aa76c-656a-3eb3-9d43-60fc87539244",
     "rep:authorizableId": "connectedassets-assets-techaccts",
     "rep:principalName": "connectedassets-assets-techaccts",
-    "aem_path": "/home/groups/c-1/gvkU04F8OzMebTFNV2OE"
+    "aem_path": "/home/groups/c-1/gvkU04F8OzMebTFNV2OE",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "fea0a1d4-1b09-3834-9645-7ea58ca22b44",
     "rep:authorizableId": "connectedassets-sites-techaccts",
     "rep:principalName": "connectedassets-sites-techaccts",
-    "aem_path": "/home/groups/c-1/dFH1uVOa0Vfnx3zS0cY8"
+    "aem_path": "/home/groups/c-1/dFH1uVOa0Vfnx3zS0cY8",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "429bbd5b-46a6-3c3d-808b-5fd4219d5c4d",
     "rep:authorizableId": "user-administrators",
     "rep:principalName": "user-administrators",
-    "aem_path": "/home/groups/u-1/user-administrators"
+    "aem_path": "/home/groups/u-1/user-administrators",
+    "group_member_count": 2,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "88882354-ed4e-39f5-9b69-442d510708b7",
     "rep:authorizableId": "AEM Assets Power Users - Service",
     "rep:principalName": "AEM Assets Power Users - Service",
-    "aem_path": "/home/groups/u-1/uOECGwMqTyx5_a1o8Plv"
+    "aem_path": "/home/groups/u-1/uOECGwMqTyx5_a1o8Plv",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "1ddd6672-3b65-3db7-acdb-6e657e85043e",
     "rep:authorizableId": "Support Team",
     "rep:principalName": "Support Team",
-    "aem_path": "/home/groups/q-1/qYCR3Ijs1PrGfEmeLQ-M"
+    "aem_path": "/home/groups/q-1/qYCR3Ijs1PrGfEmeLQ-M",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "f5777a0b-a933-3b4d-9405-613d8bc39cc7",
     "rep:authorizableId": "dam-users",
     "rep:principalName": "dam-users",
-    "aem_path": "/home/groups/d-1/1enul7dAN1YRhRlG2Yp1"
+    "aem_path": "/home/groups/d-1/1enul7dAN1YRhRlG2Yp1",
+    "group_member_count": 3,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger"
   },
   {
     "jcr:uuid": "677d9646-711e-3821-8657-c518f776a4af",
     "rep:authorizableId": "DEV-TEST-06-18-2025",
     "rep:principalName": "DEV-TEST-06-18-2025",
-    "aem_path": "/home/groups/d-1/dcY4n1-mgMF0Y199boHT"
+    "aem_path": "/home/groups/d-1/dcY4n1-mgMF0Y199boHT",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "13f2d435-fb29-3b29-b0d9-4ef81c869949",
     "rep:authorizableId": "DOGCOW",
     "rep:principalName": "DOGCOW",
-    "aem_path": "/home/groups/n-1/nUXHkzqIXCQrp8ElCxbq"
+    "aem_path": "/home/groups/n-1/nUXHkzqIXCQrp8ElCxbq",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "7a23e294-4d78-3824-9a15-08b446605b25",
     "rep:authorizableId": "AEM Assets Collaborator Users - Service",
     "rep:principalName": "AEM Assets Collaborator Users - Service",
-    "aem_path": "/home/groups/J/JyDdl8d2ZMIxh9WImtye"
+    "aem_path": "/home/groups/J/JyDdl8d2ZMIxh9WImtye",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "ee50273b-b5e1-314e-b8ff-3678aa4bb950",
     "rep:authorizableId": "DEV-TEST-06-17-2025",
     "rep:principalName": "DEV-TEST-06-17-2025",
-    "aem_path": "/home/groups/D/D14_o1DxGcOYliiUI0Oi"
+    "aem_path": "/home/groups/D/D14_o1DxGcOYliiUI0Oi",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "91a71477-df1f-3b4e-8584-177d58f8909a",
     "rep:authorizableId": "DEV-TEST-06-12-2025",
     "rep:principalName": "DEV-TEST-06-12-2025",
-    "aem_path": "/home/groups/X/XAS2tXc4-BmmRztmi5D8"
+    "aem_path": "/home/groups/X/XAS2tXc4-BmmRztmi5D8",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "8b4aa6e0-dd2d-3645-aa97-4678424645d8",
     "rep:authorizableId": "CCMS_Authors_Local",
     "rep:principalName": "CCMS_Authors_Local",
-    "aem_path": "/home/groups/E/Eo5gzGJitsVT9k_Yay5S"
+    "aem_path": "/home/groups/E/Eo5gzGJitsVT9k_Yay5S",
+    "group_member_count": 3,
+    "users_in_this_group": "Dimple Revawala, Gabriel Chow, Kristina Groeger, Mark Wong"
   },
   {
     "jcr:uuid": "75b5a47b-fcbb-3529-8f21-88d3b0891a29",
     "rep:authorizableId": "AEM Users - Service",
     "rep:principalName": "AEM Users - Service",
-    "aem_path": "/home/groups/k/kzjRTYjnLIE-dmqu4Rvj"
+    "aem_path": "/home/groups/k/kzjRTYjnLIE-dmqu4Rvj",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "79c37fb3-5966-323d-b8ef-691c30e5fb94",
     "rep:authorizableId": "CCMS_Authors",
     "rep:principalName": "CCMS_Authors",
-    "aem_path": "/home/groups/Y/YtHNv5dLw_PR42yZNYxJ"
+    "aem_path": "/home/groups/Y/YtHNv5dLw_PR42yZNYxJ",
+    "group_member_count": 0,
+    "users_in_this_group": ""
   },
   {
     "jcr:uuid": "e9f07f2d-3821-3446-98ce-9e30d953ef1e",
     "rep:authorizableId": "CCMS_SupportTeam_Local",
     "rep:principalName": "CCMS_SupportTeam_Local",
-    "aem_path": "/home/groups/P/Pl_twtziA_Pd3r8U6Zo4"
+    "aem_path": "/home/groups/P/Pl_twtziA_Pd3r8U6Zo4",
+    "group_member_count": 2,
+    "users_in_this_group": "Amarjit Saini, Dimple Revawala, Gabriel Chow, Kristina Groeger, Manny Dayno, Mark Wong, test-user-persona test-user-persona"
   }
 ]
