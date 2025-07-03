@@ -10,6 +10,30 @@ HTML_FILE = Path("openInBrowser.html")
 # Regex patterns
 uuid_pattern = re.compile(r'jcr:uuid="([^"]+)"')
 authid_pattern = re.compile(r'rep:authorizableId="([^"]+)"')
+principal_pattern = re.compile(r'rep:principalName="([^"]+)"')
+
+def extract_group_info(content_xml, group_path):
+    try:
+        xml_text = content_xml.read_text(encoding="utf-8")
+        uuid_match = uuid_pattern.search(xml_text)
+        authid_match = authid_pattern.search(xml_text)
+        principal_match = principal_pattern.search(xml_text)
+        jcr_uuid = uuid_match.group(1) if uuid_match else None
+        authorizable_id = authid_match.group(1) if authid_match else None
+        principal_name = principal_match.group(1) if principal_match else None
+        # Only add if jcr:uuid OR rep:authorizableId present
+        if jcr_uuid or authorizable_id:
+            return {
+                "jcr:uuid": jcr_uuid,
+                "rep:authorizableId": authorizable_id,
+                "rep:principalName": principal_name,
+                "aem_path": group_path
+            }
+        else:
+            return None
+    except Exception as e:
+        print(f"{content_xml}: ⚠️ Error reading/parsing file: {e}")
+        return None
 
 def collect_groups():
     group_list = []
@@ -18,24 +42,26 @@ def collect_groups():
         print(f"❌ Groups folder not found at {GROUPS_PATH.resolve()}")
         return group_list
 
-    for t_folder in GROUPS_PATH.iterdir():
-        if not t_folder.is_dir():
+    for item in GROUPS_PATH.iterdir():
+        if not item.is_dir():
             continue
-        for group_dir in t_folder.iterdir():
-            content_xml = group_dir / ".content.xml"
-            if content_xml.exists():
-                try:
-                    xml_text = content_xml.read_text(encoding="utf-8")
-                    uuid_match = uuid_pattern.search(xml_text)
-                    authid_match = authid_pattern.search(xml_text)
-                    jcr_uuid = uuid_match.group(1) if uuid_match else None
-                    authorizable_id = authid_match.group(1) if authid_match else None
-                    group_list.append({
-                        "jcr:uuid": jcr_uuid,
-                        "rep:authorizableId": authorizable_id
-                    })
-                except Exception as e:
-                    print(f"{group_dir.name}: ⚠️ Error reading/parsing file: {e}")
+
+        # Check for direct group: /home/groups/<group>/.content.xml
+        content_xml = item / ".content.xml"
+        if content_xml.exists():
+            result = extract_group_info(content_xml, f"/home/groups/{item.name}")
+            if result:
+                group_list.append(result)
+
+        # Now check for nested group: /home/groups/<letter>/<group>/.content.xml
+        for subitem in item.iterdir():
+            if subitem.is_dir():
+                sub_content_xml = subitem / ".content.xml"
+                if sub_content_xml.exists():
+                    result = extract_group_info(sub_content_xml, f"/home/groups/{item.name}/{subitem.name}")
+                    if result:
+                        group_list.append(result)
+
     return group_list
 
 def write_json(group_list):
@@ -52,7 +78,7 @@ def write_html(group_list):
         "<title>AEM Cloud Permission Hellscape — Group Info Visualization</title>",
         "<style>",
         "body { font-family: sans-serif; margin: 2em; }",
-        "table { border-collapse: collapse; width: 100%; max-width: 800px; }",
+        "table { border-collapse: collapse; width: 100%; max-width: 1200px; }",
         "th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }",
         "th { background: #f5f5f5; }",
         "tr:nth-child(even) { background: #fafafa; }",
@@ -61,13 +87,15 @@ def write_html(group_list):
         "<h1>🔥 AEM Cloud Permission Hellscape — Group Info Visualization 🔥</h1>",
         f"<p><b>{len(group_list)} groups found.</b></p>",
         "<table>",
-        "<tr><th>#</th><th>jcr:uuid</th><th>rep:authorizableId</th></tr>"
+        "<tr><th>#</th><th>jcr:uuid</th><th>rep:authorizableId</th><th>rep:principalName</th><th>AEM Path</th></tr>"
     ]
     for i, group in enumerate(group_list, 1):
         html.append(
             f"<tr><td>{i}</td>"
             f"<td>{group.get('jcr:uuid','')}</td>"
-            f"<td>{group.get('rep:authorizableId','')}</td></tr>"
+            f"<td>{group.get('rep:authorizableId','')}</td>"
+            f"<td>{group.get('rep:principalName','')}</td>"
+            f"<td><code>{group.get('aem_path','')}</code></td></tr>"
         )
     html.extend(["</table>", "</body></html>"])
 
